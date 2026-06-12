@@ -1,66 +1,11 @@
 {
-  "name": "qsc-workspace",
-  "workspaces": [
-    "./source/npm/qsharp",
-    "./source/playground",
-    "./source/vscode"
-  ],
-  "license": "MIT",
-  "engines": {
-    "node": ">=22.14.0"
-  },
+  "name": "mcp-client",
+  "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "eslint:check": "eslint -c ./eslint.config.mjs --max-warnings 0 ./",
-    "prettier:check": "prettier -c --no-config ./",
-    "check": "npm run eslint:check && npm run prettier:check",
-    "prettier:fix": "prettier -w --no-config ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
-  "devDependencies": {
-    "@anywidget/types": "^0.3.0",
-    "@eslint/js": "^10.0.1",
-    "@parcel/watcher": "^2.5.6",
-    "@types/chai": "^5.2.3",
-    "@types/markdown-it": "^14.1.2",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^22.14",
-    "@types/vscode": "1.100.0",
-    "@types/vscode-webview": "^1.57.5",
-    "@vscode/codicons": "^0.0.45",
-    "@vscode/debugadapter": "^1.68.0",
-    "@vscode/debugprotocol": "^1.68.0",
-    "@vscode/extension-telemetry": "0.8.5",
-    "@vscode/markdown-it-katex": "^1.0.0",
-    "@vscode/test-web": "^0.0.80",
-    "@vscode/test-electron": "^2.5.2",
-    "3dmol": "^2.5.4",
-    "chai": "^6.2.2",
-    "dompurify": "^3.3.3",
-    "esbuild": "0.26.0",
-    "eslint": "^10.2.0",
-    "events": "^3.3.0",
-    "github-markdown-css": "^5.9.0",
-    "globals": "^17.5.0",
-    "highlight.js": "^11.11.1",
-    "highlightjs-copy": "^1.0.6",
-    "jsdom": "^29.0.2",
-    "markdown-it": "^14.1.1",
-    "mocha": "^11.7.5",
-    "modern-normalize": "^3.0.1",
-    "monaco-editor": "^0.53.0",
-    "preact": "^10.29.1",
-    "prettier": "^3.8.1",
-    "punycode": "^2.3.1",
-    "typescript": "5.6.3",
-    "typescript-eslint": "^8.58.2",
-    "url": "^0.11.4",
-    "user-agent-data-types": "^0.4.3",
-    "vscode-uri": "^3.0.8"
-  },
-  "overrides": {
-    "mocha": {
-      "serialize-javascript": "^7.0.4",
-      "diff": "^8.0.3"
-    }
-  }
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
